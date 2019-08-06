@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_gravity="center"
+        tools:src="@drawable/hello_world_text"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:scaleType="centerInside"
+        android:id="@+id/img_detect"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Process"
+        android:id="@+id/btn_process"
+        />
+
+    <TextView
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="Wait..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_detect"
+        />
+
+
+
+</LinearLayout>
